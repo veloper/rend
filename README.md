@@ -5,8 +5,8 @@ Rend is an open source project aimed at porting over various PHP Zend Framework 
 ## Description
 Rend is a meta-gem which currently includes (depends on) the following gems:
 
-* `rend-core`
-* `rend-acl` -- _[Zend_Acl](http://framework.zend.com/manual/1.12/en/zend.acl.html)_
+* [rend-core](https://github.com/veloper/rend-core)
+* [rend-acl](https://github.com/veloper/rend-acl)
 * _Expect this list to grow..._
 
 
@@ -16,21 +16,7 @@ Conversely, one can simply include all available Rend components by installing t
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'rend'
-
-... and then execute:
-
-    $ bundle
-
-Or install it manually using:
-
     $ gem install rend
-
-## Usage
-
-See the wiki, or individual gem projects, for information on how to use them.
 
 ## Contributing
 
@@ -46,9 +32,6 @@ See the wiki, or individual gem projects, for information on how to use them.
 * Original PHP code is licensed under [Zend's New-BSD License](http://framework.zend.com/license/).
     * This license can be found in `./ZEND_FRAMEWORK_LICENSE.txt`
 
-#### Important Excerpt from the Zend's New-BSD License...
-> Neither the name of Zend Technologies USA, Inc. nor the names of its
-> contributors may be used to endorse or promote products derived from this
-> software without specific prior written permission.
-
-**TO BE CLEAR:** This project is in **no-way** associated with, or endorsed by, Zend Technologies USA, Inc. or any of its contributors.
+## Acknowledgements
+* This project is **not** associated with, or endorsed by, Zend Technologies USA, Inc., nor any of its contributors.
+* Rend's modular design was heavily influced by [RSpec](https://github.com/rspec/rspec) approach.

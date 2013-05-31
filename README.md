@@ -6,7 +6,7 @@ Rend is an open source project aimed at porting over various PHP Zend Framework 
 Rend is a meta-gem which currently includes (depends on) the following gems:
 
 * `rend-core`
-* `rend-acl` -- _A ported of [Zend_Acl](http://framework.zend.com/manual/1.12/en/zend.acl.html)_
+* `rend-acl` -- _[Zend_Acl](http://framework.zend.com/manual/1.12/en/zend.acl.html)_
 * _Expect this list to grow..._
 
 

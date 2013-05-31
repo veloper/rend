@@ -23,13 +23,13 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
   spec.add_development_dependency "bundler", "~> 1.3"
 
-  # dependency_gems = ['rend-core', 'rend-acl']
+  dependency_gems = ['rend-core', 'rend-acl']
 
-  # dependency_gems.each do |gem_name|
-  #   if Rend::Version::STRING =~ /[a-zA-Z]+/
-  #     spec.add_runtime_dependency "#{gem_name}", "= #{Rend::Version::STRING}"
-  #   else
-  #     spec.add_runtime_dependency "#{gem_name}", "~> #{Rend::Version::STRING.split('.')[0..1].concat(['0']).join('.')}"
-  #   end
-  # end
+  dependency_gems.each do |gem_name|
+    if Rend::Version::STRING =~ /[a-zA-Z]+/
+      spec.add_runtime_dependency "#{gem_name}", "= #{Rend::Version::STRING}"
+    else
+      spec.add_runtime_dependency "#{gem_name}", "~> #{Rend::Version::STRING.split('.')[0..1].concat(['0']).join('.')}"
+    end
+  end
 end

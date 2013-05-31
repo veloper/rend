@@ -40,11 +40,11 @@ See the wiki, or individual gem projects, for information on how to use them.
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-# Licenseing
+# Licensing
 
 * All ported Ruby code and assoicated 'Rend' gems are under a simple [New-BSD License](http://dan.doezema.com/licenses/new-bsd).
-* Original PHP code is licensed under the [Zend's New-BSD License](http://framework.zend.com/license/).
-    * This license can be found with `./ZEND_FRAMEWORK_LICENSE.txt`
+* Original PHP code is licensed under [Zend's New-BSD License](http://framework.zend.com/license/).
+    * This license can be found in `./ZEND_FRAMEWORK_LICENSE.txt`
 
 #### Important Excerpt from the Zend's New-BSD License...
 > Neither the name of Zend Technologies USA, Inc. nor the names of its
